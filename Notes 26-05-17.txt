@@ -1,0 +1,71 @@
+Assignment:
+
+name = "samirah"
+age = 26 
+work = "civil engineer"
+why = "money matter"
+
+print [name, age, work, why]
+>>>['samirah','26','civil engineer','money matters']
+
+OR
+
+bio = raw_input(["name?","age?", "work?", "why?"])
+name?, age?, work?, why?samirah, 26, civil engineer, money matters
+
+
+Notes:
+Data Types...ctnd
+
+  Tuples ():
+
+A tuple is another sequence data type that is similar to the list. 
+A tuple consists of a number of values separated by commas.
+Unlike lists, however, tuples are enclosed within parentheses.
+  
+   exp.
+	cars = ("ford", "audi", "honda", "toyota", "jeep")
+	print cars[3] >>>'toyota'
+	
+	
+  Dictionary {}:
+Dictionaries are enclosed by curly braces ({ }) 
+and values can be assigned and accessed using square braces ([]).
+
+  exp.
+     1. todos = {}
+	todos["drinks"] = "fanta"
+	>>>drinks:fanta
+
+     2. cars = {}
+	cars ["tata"] = "range rover"
+	cars   #call cars
+	{'tata':'range rover'}
+
+     3. food = {"rice":"jollof","drink":"fanta"}
+	food		#call food
+	{'rice':'jollof', 'drink':'coke'}
+	food["rice"]	#call food[rice]
+	'jollof'
+
+Types of Operators:
+	1. Arithmetic operators
+	2. Comparison operators
+	3. Assignment operators
+
+   Arithmetic operators: [+,-,*,/,%]
+
+
+   Comparison operators:
+	== equal to
+	!= not equal
+	[>,<,>=,<=]
+
+     exp. 
+	name = "alex"
+	age = 7
+	name == age
+	>>> False
+	name = age
+	name == age
+	>>> True
