@@ -1,0 +1,15 @@
+Dictionary ...ctnd
+
+food = {"rice":"jollof","drink":"fanta","car":"jeep"}
+>>>food["rice"]
+'jollof'
+
+>>>food.keys()
+['car','rice','drink']
+
+>>>food.value()
+
+
+Conditional Flow:
+Is the anticipation of conditions occurring while execution of the program 
+and specifying actions taken according to the conditions.
